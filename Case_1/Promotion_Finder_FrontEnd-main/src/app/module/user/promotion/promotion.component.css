@@ -1,0 +1,56 @@
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.main {
+  margin-top: 5%;
+}
+
+.containerr {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background overlay */
+  z-index: 999;
+  /* Ensure it's on top of other content */
+}
+
+.page {
+  margin-right: 5%;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: rgb(1, 22, 129);
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 80%;
+  /* Adjust the maximum width as needed */
+}
+
+.modal-open .main {
+  filter: blur(2px);
+  /* Add a blur effect to the background content when the modal is open */
+}

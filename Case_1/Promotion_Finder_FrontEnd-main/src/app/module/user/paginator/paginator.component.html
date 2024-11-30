@@ -1,0 +1,7 @@
+<div class="pagination">
+    <span class="space">Showing {{ currentPage }}st page out of {{ totalPages }} pages</span>
+    <button class="button-48" [disabled]="currentPage === 1" (click)="prevPage()"><</button>
+    <span>{{ currentPage }} / {{ totalPages }}</span>
+    <button class="button-48" [disabled]="currentPage === totalPages" (click)="nextPage()">></button>
+</div>
+

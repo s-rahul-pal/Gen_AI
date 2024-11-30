@@ -1,0 +1,9 @@
+<input type="text" #box (keyup)="getValue(box.value)">
+<select  (change)="getValue($event)" >
+    <option>---Option---</option>
+    <option value="javascript">JavaScript</option>
+    <option value="python">Python</option>
+    <option value="c++" disabled>C++</option>
+    <option value="java" selected>Java</option>
+  </select>
+  <p>{{valuevalue}}</p>

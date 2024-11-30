@@ -1,0 +1,67 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<select class="float-right page" (change)="getValue($event)">
+  <!-- <option value="javascript">JavaScript</option>
+    <option value="python">Python</option>
+    <option value="c++" disabled>C++</option>
+    <option value="java" selected>Java</option> -->
+  <option value="">Select your Country</option>
+  <option *ngFor="let country of countries" [selected]="country === valuevalue">{{country}}</option>
+</select>
+
+<div class="main" [class.modal-open]="showModal">
+  <div class="containerr shadow">
+    <table class="table table-striped">
+      <thead style="background-color: rgb(249, 246, 253);">
+        <tr>
+          <th>Nationals Promotions
+
+          </th>
+          <th>Terms & Conditions</th>
+          <th>Participating Locations</th>
+        </tr>
+      </thead>
+
+      <!-- Page 1 -->
+      <tr *ngFor="let promotion of promotions">
+        <td>{{promotion.promotionName}}</td>
+        <td (click)="openModal(promotion.terms)"><a class="button">Click Here</a></td>
+        <td (click)="openLocationModal(promotion.location)"><a class="button">Click Here</a></td>
+      </tr>
+
+
+
+    </table>
+
+    <div class="modal" *ngIf="showModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Terms & Conditions</h4>
+          <button type="button" class="close" (click)="closeModal()" data-dismiss="modal">&times;</button>
+        </div>
+        <ul style="margin-top:1rem">
+          <li *ngFor="let term of terms">{{ term }}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="modal" *ngIf="showModal2">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Participating Locations</h4>
+          <button type="button" class="close" (click)="closeModal()" data-dismiss="modal">&times;</button>
+        </div>
+        <ul style="margin-top:1rem">
+          <li *ngFor="let location of locations">{{ location }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <app-paginator [pageSize]="itemsPerPage" [totalItems]="promotions.length"
+    (pageChange)="onPageChange($event)"></app-paginator>
+</div>
+<!-- Include Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
