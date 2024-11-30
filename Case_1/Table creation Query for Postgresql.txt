@@ -1,0 +1,19 @@
+CREATE TABLE Promotion (
+  id Bigint PRIMARY KEY,
+  promotionName VARCHAR(255) NOT NULL,
+  country VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE TermsOfUse (
+  promotionId bigint NOT NULL,
+  term VARCHAR(255) NOT NULL,
+  PRIMARY KEY (promotionId, term),
+  CONSTRAINT fk_promotion_id FOREIGN KEY (promotionId) REFERENCES Promotion(id)
+);
+
+CREATE TABLE Locations (
+  promotionId Bigint NOT NULL,
+  location VARCHAR(255) NOT NULL,
+  PRIMARY KEY (promotionId, location),
+  CONSTRAINT fk_promotion_id FOREIGN KEY (promotionId) REFERENCES Promotion(id)
+);
