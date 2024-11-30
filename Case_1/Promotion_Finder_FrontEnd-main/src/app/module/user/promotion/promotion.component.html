@@ -25,8 +25,8 @@
       <!-- Page 1 -->
       <tr *ngFor="let promotion of promotions">
         <td>{{promotion.promotionName}}</td>
-        <td (click)="openModal(promotion.terms)"><a class="button">Click Here</a></td>
-        <td (click)="openLocationModal(promotion.location)"><a class="button">Click Here</a></td>
+        <td (click)="openModal(promotion.termsOfUse)"><a class="button">Click Here</a></td>
+        <td (click)="openLocationModal(promotion.locations)"><a class="button">Click Here</a></td>
       </tr>
 
 
@@ -36,11 +36,11 @@
     <div class="modal" *ngIf="showModal">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title">Terms & Conditions</h4>
+          <h4 class="modal-title">termsOfUse & Conditions</h4>
           <button type="button" class="close" (click)="closeModal()" data-dismiss="modal">&times;</button>
         </div>
         <ul style="margin-top:1rem">
-          <li *ngFor="let term of terms">{{ term }}</li>
+          <li *ngFor="let term of termsOfUse">{{ term }}</li>
         </ul>
       </div>
     </div>

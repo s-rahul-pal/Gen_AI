@@ -16,7 +16,7 @@ export class PromotionComponent {
   itemsPerPage = 5;
   currentPage: number = 1;
   countries: string[] = [];
-  terms: string[] = [];
+  termsOfUse: string[] = [];
   locations: string[] = [];
 
   constructor(private httpClient: HttpClient) {
@@ -47,7 +47,7 @@ export class PromotionComponent {
 
   openModal(yourdata: any) {
     this.showModal = true;
-    this.terms = yourdata;
+    this.termsOfUse = yourdata;
   }
 
   openLocationModal(yourdata: any) {

@@ -1,6 +1,6 @@
 export interface Promotion {
-  id: string;
+  id: number;
   promotionName: string;
-  terms: string[];
-  location: string[];
+  termsOfUse: string[];
+  locations: string[];
 }

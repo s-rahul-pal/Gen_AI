@@ -1,31 +1,57 @@
 package com.backend.promotionfinder;
 
+import jakarta.persistence.CollectionTable;
+import jakarta.persistence.Column;
+import jakarta.persistence.ElementCollection;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
 import java.util.List;
 
+@Entity
 public class Promotion {
-    private String id;
+
+    @Id
+    private Long id;
+
+    @Column(name = "promotionname")
     private String promotionName;
+    
     private String country;
+
+    @ElementCollection
+    @CollectionTable(name = "termsofuse", joinColumns = @JoinColumn(name = "promotionid"))
+    @Column(name = "term")
     private List<String> termsOfUse;
+
+    @ElementCollection
+    @CollectionTable(name = "locations", joinColumns = @JoinColumn(name = "promotionid"))
+    @Column(name = "location")
     private List<String> locations;
 
     // Constructor
+    public Promotion(String promotionName, String country, List<String> termsOfUse, List<String> locations) {
+        this.promotionName = promotionName;
+        this.country = country;
+        this.termsOfUse = termsOfUse;
+        this.locations = locations;
+    }
+    
+    
     
 
-    // Getters and Setters
-    public String getId() {
+    public Promotion() {
+	}
+
+
+
+
+	// Getters and Setters
+    public Long getId() {
         return id;
     }
 
-    public Promotion(String id, String promotionName, String country, List<String> terms, List<String> location) {
-        this.id = id;
-        this.promotionName = promotionName;
-        this.country = country;
-        this.termsOfUse = terms;
-        this.locations = location;
-    }
-
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -45,22 +71,19 @@ public class Promotion {
         this.country = country;
     }
 
-    public List<String> getTerms() {
+    public List<String> getTermsOfUse() {
         return termsOfUse;
     }
 
-    public void setTerms(List<String> terms) {
-        this.termsOfUse = terms;
+    public void setTermsOfUse(List<String> termsOfUse) {
+        this.termsOfUse = termsOfUse;
     }
 
-    public List<String> getLocation() {
+    public List<String> getLocations() {
         return locations;
     }
 
-    public void setLocation(List<String> location) {
-        this.locations = location;
+    public void setLocations(List<String> locations) {
+        this.locations = locations;
     }
-
-
-
 }
