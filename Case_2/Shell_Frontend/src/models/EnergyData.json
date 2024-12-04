@@ -1,0 +1,178 @@
+[
+    {
+        "id": "653bb5984ea54c598a826b97",
+        "date": "2024-04-01",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.7,
+        "exportToGrid": 0.0
+    },
+    {
+        "id": "653bad4eaff8be7bb4fda478",
+        "date": "2024-04-02",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.6,
+        "exportToGrid": 0.4
+    },
+    {
+        "id": "653bb3204ea54c598a826b7b",
+        "date": "2024-04-03",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.9,
+        "exportToGrid": 0.5
+    },
+    {
+        "id": "653bb3584ea54c598a826b7c",
+        "date": "2024-04-04",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.5,
+        "exportToGrid": -0.2
+    },
+    {
+        "id": "653bb3bd4ea54c598a826b7d",
+        "date": "2024-04-05",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.7,
+        "exportToGrid": -0.1
+    },
+    {
+        "id": "653bb3ca4ea54c598a826b7e",
+        "date": "2024-04-06",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.8,
+        "exportToGrid": 0.2
+    },
+    {
+        "id": "653bb3db4ea54c598a826b7f",
+        "date": "2024-04-07",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.7,
+        "exportToGrid": 0.4
+    },
+    {
+        "id": "653bb3e84ea54c598a826b80",
+        "date": "2024-04-08",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.9,
+        "exportToGrid": 0.4
+    },
+    {
+        "id": "653bb3fc4ea54c598a826b81",
+        "date": "2024-04-09",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.5,
+        "exportToGrid": -0.1
+    },
+    {
+        "id": "653bb40d4ea54c598a826b82",
+        "date": "2024-04-10",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.7,
+        "exportToGrid": 0.0
+    },
+    {
+        "id": "653bb41e4ea54c598a826b83",
+        "date": "2024-04-11",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.6,
+        "exportToGrid": 0.2
+    },
+    {
+        "id": "653bb42b4ea54c598a826b84",
+        "date": "2024-04-12",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.8,
+        "exportToGrid": 0.5
+    },
+    {
+        "id": "653bb43d4ea54c598a826b85",
+        "date": "2024-04-13",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.5,
+        "exportToGrid": -0.3
+    },
+    {
+        "id": "653bb44c4ea54c598a826b86",
+        "date": "2024-04-14",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.7,
+        "exportToGrid": 0.1
+    },
+    {
+        "id": "653bb4884ea54c598a826b87",
+        "date": "2024-04-15",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.7,
+        "exportToGrid": 0.1
+    },
+    {
+        "id": "653bb4954ea54c598a826b88",
+        "date": "2024-04-16",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.6,
+        "exportToGrid": 0.1
+    },
+    {
+        "id": "653bb4a44ea54c598a826b89",
+        "date": "2024-04-17",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.8,
+        "exportToGrid": 0.1
+    },
+    {
+        "id": "653bb4b44ea54c598a826b8a",
+        "date": "2024-04-18",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.9,
+        "exportToGrid": 0.1
+    },
+    {
+        "id": "653bb4b44ea54c598a826b8b",
+        "date": "2024-04-19",
+        "energyConsumption": 2.0,
+        "energyGeneration": 5.9,
+        "exportToGrid": 0
+    },
+    {
+        "id": "653bb4b44ea54c598a826b8c",
+        "date": "2024-04-20",
+        "energyConsumption": 2.0,
+        "energyGeneration": 6.1,
+        "exportToGrid": -1.1
+    },
+    {
+        "id": "653bb4b44ea54c598a826b8d",
+        "date": "2024-04-21",
+        "energyConsumption": 2.0,
+        "energyGeneration": 6.1,
+        "exportToGrid": -1.1
+    },
+    {
+        "id": "653bb4b44ea54c598a826b8e",
+        "date": "2024-04-22",
+        "energyConsumption": 2.0,
+        "energyGeneration": 6.1,
+        "exportToGrid": -1.1
+    },
+    {
+        "id": "653bb4b44ea54c598a826b8f",
+        "date": "2024-04-23",
+        "energyConsumption": 2.0,
+        "energyGeneration": 6.1,
+        "exportToGrid": -1.0
+    },
+    {
+        "id": "653bb4b44ea54c598a826b8g",
+        "date": "2024-04-24",
+        "energyConsumption": 7.2,
+        "energyGeneration": 6.2,
+        "exportToGrid": -1.0
+    },
+    {
+        "id": "653bb4b44ea54c598a826b8g",
+        "date": "2024-04-25",
+        "energyConsumption": 7.4,
+        "energyGeneration": 6.1,
+        "exportToGrid": -1.3
+    }
+
+]

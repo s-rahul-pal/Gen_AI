@@ -1,0 +1,10 @@
+.modal .modal-dialog{
+    margin-left:300px;
+}
+.modal .modal-dialog .modal-content {
+
+    width: 200%;
+}
+.modalContainer{
+    align-items: center;
+}

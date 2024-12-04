@@ -1,0 +1,226 @@
+html {
+  font-size: 14px;
+}
+
+.show-data-button {
+  margin-left: 204px;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: normal;
+  background: var(--surface-ground);
+  color: var(--text-color);
+  padding: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.number-1{
+  font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+    position: absolute;
+    margin-top: 54px;
+    margin-left: 58px;
+}
+
+.number-2{
+  font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+    position: absolute;
+    margin-top: 54px;
+    margin-left: 33px;
+}
+
+.rect-1{
+  width: 204px;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.rect-2{
+  width: 204px;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.card {
+  background: var(--surface-card);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  height: 273px;
+}
+.Rectangle-6 {
+  width: 611px;
+  height: 273px;
+  background-color: #f8f8f8;
+}
+.Rectangle-4 {
+  width: auto;
+  height: 374px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.p-chart canvas {
+  height: 200px;
+}
+.right-patch{
+  margin-top: 10px;;
+}
+
+.number-4{
+  font-family: Ubuntu;
+    font-size: 33px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    /* text-align: left; */
+    color: #333;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 34px;
+}
+.Rectangle-112{
+  width: 114px;
+  height: 69px;
+  flex-grow: 0;
+  padding: 4px 19px 8px 13px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: #effaff;
+  margin-left: 211px;
+  position: fixed;
+}
+
+.kWh {
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #666;
+  margin-left: 95px;
+  margin-top: 5.5rem;
+  position: absolute;
+
+}
+
+.dropdown-custom{
+  border-color: #333;
+  border-block-color: unset;
+  margin-left: 39px;
+  font-family: ubuntu;
+  background-size: auto;
+  background: border-box;
+}
+.Energy-Generation-1{
+  width: 137px;
+    height: 16px;
+    margin: 15px 43px 20px 33px;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: normal; */
+    /* letter-spacing: normal; */
+    /* text-align: left; */
+    color: #333;
+    /* margin-top: -3px; */
+    /* top: auto; */
+    position: absolute;
+}
+
+.Energy-Generation-2{
+  width: 137px;
+    height: 16px;
+    /* margin: 15px 43px 20px 33px; */
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: normal; */
+    /* letter-spacing: normal; */
+    /* text-align: left; */
+    color: #333;
+    margin-top: 101px;
+    /* top: auto; */
+    position: absolute;
+    margin-left: 27px;
+}
+.number-5{
+  font-family: Ubuntu;
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: normal; */
+    /* letter-spacing: normal; */
+    /* text-align: left; */
+    color: #333;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 47px;
+}
+
+.kWh-1 {
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #666;
+  margin-left: 93px;
+  margin-top: 11.5rem;
+  position: absolute;
+
+}
+.in-kW{
+  font-family: Ubuntu;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    color: #666;
+    margin-left: 62px;
+    margin-top: -1.5rem;
+    position: absolute;
+}
+
+.Rectangle-113{
+  width: 114px;
+  height: 69px;
+  flex-grow: 0;
+  padding: 4px 19px 8px 13px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: #effaff;
+  margin-left: 211px;
+  position: fixed;
+  margin-top: 100px;
+}
