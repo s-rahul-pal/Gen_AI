@@ -1,0 +1,295 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ /* Adding css  */
+
+/* Container styling */
+.container {
+  font-family: 'Arial', sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e6e6e6;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #008f7a;
+  margin-bottom: 20px;
+}
+
+/* Dropdown labels */
+label {
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Dropdown styling */
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+select:focus {
+  border-color: #00c9a7;
+  background: #ffffff;
+}
+
+/* Submit Button */
+button {
+  width: 100%;
+  padding: 12px 0;
+  font-size: 1rem;
+  background: #00c9a7;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #008f7a;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* Unavailable Items Card */
+.card {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background: #fafafa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #444;
+  text-align: center;
+}
+
+/* Search bar */
+.card input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+/* Table styling */
+.table-container {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+
+th {
+  background-color: #f5f5f5;
+  color: #555;
+  font-weight: bold;
+}
+
+td {
+  color: #333;
+}
+
+td:nth-child(1) {
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  select, button {
+    font-size: 0.8rem;
+  }
+}
+
+
+.App {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  max-height: fit-content;
+  margin: 20px auto;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.App h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.App label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.App select, .App input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.App button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.App button:hover {
+  background-color: #3e8e41;
+}
+
+.App .unavailable-items {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.App .unavailable-items h2 {
+  margin-top: 0;
+}
+
+.App .unavailable-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.App .unavailable-items li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.App .unavailable-items li:last-child {
+  border-bottom: none;
+}
+
+.Heading {
+  background-color: #68c077;
+  padding: 20px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Heading h1 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fafafaf5;
+}
+
+.Heading h1::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #333;
+  margin: 10px auto;
+}
+
+.Description {
+  background-color: #fbd9c1; /* light orange */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #FF9900; /* dark orange */
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.Description h2 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #754908; /* dark orange */
+}
